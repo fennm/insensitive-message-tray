@@ -20,6 +20,7 @@ Renders Gnome's bottom message tray insensitive. It will no longer steal the
 focus and move the screen when your mouse hits the bottom of the screen.
 
 %prep
+tar -tf %{SOURCE0}
 %autosetup -p1 -n %{name}-master
 
 %build
